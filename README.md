@@ -1,6 +1,6 @@
 # Reflection #09: Hive 
 
-#### 1. List the 3 Hive Queries you wrote.__
+#### 1. List the 3 Hive Queries you wrote.
 
 __Query #1:__
 INSERT OVERWRITE DIRECTORY '/result/Hive_Query01.out' ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' SELECT 5_zipcode, med_income FROM income_table WHERE med_income < 50000;
